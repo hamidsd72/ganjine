@@ -1,0 +1,41 @@
+nav[aria-label="Pagination Navigation"]>div:first-child,
+nav[aria-label="Pagination Navigation"]>div>div:first-child
+{
+    display: none!important;
+}
+.tab_box .tab-content
+{
+    background: rgba(0,0,0,0.01);
+    border: 1px solid rgba(0,0,0,0.3);
+}
+.d-ltr
+{
+    direction: ltr!important;
+    text-align: left!important;
+}
+.d-rtl
+{
+    direction: rtl!important;
+    text-align: right!important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    text-align: right!important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    text-align: right!important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    text-align: right!important;
+}
+:-moz-placeholder { /* Firefox 18- */
+    text-align: right!important;
+}
+svg:not(:root){
+    transform: rotate(180deg);
+}
+.hidden {
+    display: block;
+}
+svg{
+    width: 30px;
+}
