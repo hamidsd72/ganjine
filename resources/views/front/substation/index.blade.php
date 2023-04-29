@@ -30,15 +30,15 @@
             @if ($data->where('section', 1)->count())
                 @foreach ($data->where('section', 1) as $page)
                     <div class="sliderbar_top pt-5 pt-lg-0">
-                        <img src="{{ $page->photo ? url($page->photo->path) : '' }}" class="w-100 banner-top-c3243" alt="this page">
-                        {{-- <div class="row" style="direction: ltr;">
+                        {{-- <img src="{{ $page->photo ? url($page->photo->path) : '' }}" class="w-100 banner-top-c3243" alt="this page"> --}}
+                        <div class="row" style="direction: ltr;">
                             <div class="col-lg"><img src="{{ $page->photo ? url($page->photo->path) : '' }}" class="w-100" alt="this page"></div>
                             <div class="col-lg my-auto">
                                 <div class="mx-auto" style="max-width: 320px">
                                     <h2 class="py-4 font-weight-bold">{!! $page->text !!}</h2>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                 @endforeach
             @endif

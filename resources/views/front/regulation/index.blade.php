@@ -16,15 +16,15 @@
     <section class="faq_page_container pt-4">
         <a href="{{$page->link}}" target="_blank">
             <div class="sliderbar_top pt-5 pt-lg-0">
-                <img src="{{ $page->pic ? url($page->pic) : '' }}" class="w-100 banner-top-c3243" alt="this page">
-                {{-- <div class="row" style="direction: ltr;">
+                {{-- <img src="{{ $page->pic ? url($page->pic) : '' }}" class="w-100 banner-top-c3243" alt="this page"> --}}
+                <div class="row" style="direction: ltr;">
                     <div class="col-lg"><img src="{{ $page->pic ? url($page->pic) : '' }}" class="w-100" alt="this page"></div>
                     <div class="col-lg my-auto">
                         <div class="mx-auto" style="max-width: 320px">
                             <h2 class="py-4 font-weight-bold text-secondary">{!! $page->page_content !!}</h2>
                         </div>
                     </div>
-                </div> --}}
+                </div>
             </div>
         </a>
         <div class="container">
